@@ -110,7 +110,7 @@ body {
 .price-card__options img {
   width: 15px;
   height: 13px;
-  margin: 0 20px 0 22px;
+  margin: 0 22px;
 }
 
 .selected {
@@ -131,22 +131,18 @@ body {
 .price-card__badge {
   position: absolute;
   right: -30px;
-  top: -30px;
+  top: 30px;
   display: flex;
   align-items: center;
+  width: 147px;
+  height: 25px;
   justify-content: center;
-  width: 122px;
-  height: 123px;
+  background-color: #dc3f45;
+  transform: rotate(45deg);
 }
 
 .price-card__badge span {
-  transform: rotate(45deg);
-  text-align: center;
-  line-height: 25px;
-  width: 147px;
-  height: 25px;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #dc3f45;
 }
