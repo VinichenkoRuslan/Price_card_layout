@@ -62,11 +62,6 @@ body {
   text-align: center;
 }
 
-.price-card__options_list {
-  width: 380px;
-  height: 300px;
-}
-
 .price-card__price {
   height: 105px;
   display: flex;
@@ -101,6 +96,11 @@ body {
 .price-card__options {
   font-size: 15px;
   font-weight: 300;
+}
+
+.price-card__options-list {
+  width: 380px;
+  height: 300px;
 }
 
 .price-card__options {
