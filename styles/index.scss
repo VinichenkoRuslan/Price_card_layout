@@ -55,7 +55,7 @@ body {
 
 .price-card__subtitle {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 24px;
   margin-bottom: 31px;
   text-align: center;
@@ -100,6 +100,9 @@ body {
   height: 50px;
   line-height: 50px;
 }
+// .price-card__options span {
+
+// }
 
 .price-card__options img {
   width: 15px;
@@ -117,6 +120,7 @@ body {
   height: 40px;
   margin: 39px auto 0 auto;
   font-size: 14px;
+  color: #fff;
   border: none;
   border-radius: 20px;
 }
