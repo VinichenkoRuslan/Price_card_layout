@@ -8,22 +8,23 @@ p {
   margin: 0;
   padding: 0;
 }
+
 * {
   box-sizing: border-box;
 }
+
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fff;
 }
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: auto;
 }
-
-@import 'variable.scss';
 
 .page {
   display: flex;
@@ -72,15 +73,15 @@ body {
 }
 
 .green {
-  background-color: $color_green;
+  background-color: #5bb189;
 }
 
 .blue {
-  background-color: $color_blue;
+  background-color: #3a6ba5;
 }
 
 .orange {
-  background-color: $color_orange;
+  background-color: #ec632a;
 }
 
 .price-card__discription {
@@ -143,3 +144,5 @@ body {
   text-transform: uppercase;
   background-color: #dc3f45;
 }
+
+/*# sourceMappingURL=styles.css.map */
