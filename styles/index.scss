@@ -60,6 +60,10 @@ body {
   margin-bottom: 31px;
   text-align: center;
 }
+.price-card__options_list {
+  width: 380px;
+  height: 300px;
+}
 
 .price-card__price {
   height: 105px;
@@ -84,6 +88,7 @@ body {
 }
 
 .price-card__discription {
+  height: 36px;
   margin-right: 26px;
   margin-left: 26px;
   margin-bottom: 40px;
